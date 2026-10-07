@@ -52,6 +52,8 @@ section{padding:64px 0;border-top:1px solid var(--line)}
 .certs li{margin-bottom:6px;break-inside:avoid}
 .certs b{color:var(--ink);font-weight:600}
 footer{padding:24px 0 48px;color:var(--mute);font-size:15px}
+.vid{position:relative;aspect-ratio:16/9;max-width:560px;margin-top:16px;border-radius:10px;overflow:hidden;background:var(--panel)}.vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.about p{max-width:68ch;margin:0 0 16px}
 @media(max-width:640px){.proj{grid-template-columns:1fr}.paper{padding:22px}}
 </style>
 </head>
@@ -61,13 +63,20 @@ footer{padding:24px 0 48px;color:var(--mute);font-size:15px}
   <canvas id="name" aria-hidden="true"></canvas>
   <h1 class="sr">Janigala Vignesh Kumar</h1>
   <p class="role">AI/ML engineer who builds computer vision models and full-stack products.</p>
-  <p class="lede">B.Tech graduate in CSE (AI &amp; ML) from Vignan Institute of Technology and Science, 2026. Published researcher in face recognition, and builder of deployed apps with Next.js, Supabase and LLMs. Open to entry-level roles in software, AI/ML and data.</p>
+  <p class="lede">Computer Science Engineering graduate (AI &amp; ML) who builds intelligent applications that solve real-world problems. Published researcher in low-resolution face recognition, with deployed full-stack and LLM-powered products. Open to entry-level roles in AI/ML and software. <b>Build. Learn. Experiment. Solve.</b></p>
   <div class="btns">
     <a class="btn p" href="mailto:vigneshkumar88092@gmail.com">Email me</a>
     <a class="btn" href="https://github.com/vignesh7536">GitHub</a>
     <a class="btn" href="https://www.linkedin.com/in/vigneshkumar-767981306">LinkedIn</a>
   </div>
 </header>
+
+<section id="about" class="about">
+  <h2>About me</h2>
+  <p>Hi, I'm Vignesh. I'm a passionate Python developer and AI/ML enthusiast who enjoys turning ideas into practical, user-focused applications.</p>
+  <p>My work spans deep learning, computer vision, and full-stack development: from low-resolution face recognition with Genetic Algorithm-optimized CNNs to an AI-powered women's safety agent, an e-commerce brand site, automatic number plate detection, and a recycling platform. I work with Python, PyTorch, TensorFlow, React, Next.js, Node.js, Supabase, MySQL, and the OpenAI APIs.</p>
+  <p>I care most about building intelligent systems that solve real problems, not just demonstrate technical ideas. I'm an NSS member, an active speaker, and a team leader who enjoys explaining technical work to people. I keep learning through projects, research, and hackathons, and I want to grow into an AI/ML and software engineer who builds technology that is useful, scalable, and impactful.</p>
+</section>
 
 <section id="research">
   <h2>Published research</h2>
@@ -83,14 +92,16 @@ footer{padding:24px 0 48px;color:var(--mute);font-size:15px}
 <section id="projects">
   <h2>Projects</h2>
   <article class="proj">
-    <h3>SafeAI – ASTRA</h3>
-    <div><p>A women's safety AI agent built by team MINDSHARK. It combines an LLM assistant with location features and alerting. Deployed and live.</p>
-    <ul class="tags"><li>Next.js</li><li>React</li><li>Tailwind</li><li>Supabase</li><li>OpenAI GPT</li><li>LangChain</li><li>Google Maps</li><li>Twilio</li><li>EmailJS</li></ul></div>
-  </article>
-  <article class="proj">
     <h3>Godha Krishi</h3>
     <div><p>E-commerce and brand website for wooden cold-pressed oils: product catalog, Razorpay payments, SEO and Google Analytics, QR-based marketing, and links to Amazon, Flipkart and Swiggy Instamart listings. <a href="https://www.godhakrishi.com/">Visit the live site</a></p>
     <ul class="tags"><li>E-commerce</li><li>Razorpay</li><li>SEO</li><li>Google Analytics</li></ul></div>
+  </article>
+  <article class="proj">
+    <h3>SafeAI – ASTRA</h3>
+    <div><p>A women's safety AI agent built by team MINDSHARK. It combines an LLM assistant with location features and alerting. Deployed and live.</p>
+    <div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/6voMPbXwOrM" title="SafeAI ASTRA demo video" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+    <p><a href="https://youtu.be/6voMPbXwOrM">Watch the full demo on YouTube</a></p>
+    <ul class="tags"><li>Next.js</li><li>React</li><li>Tailwind</li><li>Supabase</li><li>OpenAI GPT</li><li>LangChain</li><li>Google Maps</li><li>Twilio</li><li>EmailJS</li></ul></div>
   </article>
   <article class="proj">
     <h3>LoopIt – Recycling Hub</h3>
@@ -110,10 +121,11 @@ footer{padding:24px 0 48px;color:var(--mute);font-size:15px}
 </section>
 
 <section id="experience">
-  <h2>Experience and achievements</h2>
+  <h2>Experience, leadership and achievements</h2>
   <ul class="tl">
     <li><b>GenAIVersity 24-Hour GenAI Hackathon</b><p>Built a project with LangChain and ML in a team. GenAIVersity and Supervity offered me an opportunity and an offer letter as a result.</p></li>
-    <li><b>Web Development internship offer, Prodigy Infotech</b><p>Offered an internship focused on web development.</p></li>
+    <li><b>Web Development intern, Prodigy Infotech</b><p>Completed a web development internship.</p></li>
+    <li><b>NSS member, active speaker and team leader</b><p>Active in NSS at college, leading teams and presenting technical work, including my research paper at ICTMIM 2026.</p></li>
     <li><b>Job simulations on Forage</b><p>Tata GenAI-Powered Data Analytics, Tata Data Visualisation, and Deloitte Australia Data Analytics.</p></li>
     <li><b>Teliport Season 3 hackathon</b><p>Competed as part of my hands-on AI project work.</p></li>
   </ul>
@@ -122,9 +134,9 @@ footer{padding:24px 0 48px;color:var(--mute);font-size:15px}
 <section id="skills">
   <h2>Skills</h2>
   <div class="skills">
-    <div><h3>AI and ML</h3><p>Python, deep learning, CNNs, embedding learning, genetic algorithms, OpenCV, LangChain, OpenAI API</p></div>
-    <div><h3>Web</h3><p>JavaScript, React, Next.js, Tailwind CSS, MERN stack, Supabase, HTML5, CSS3</p></div>
-    <div><h3>Data</h3><p>SQL, Tableau, Excel</p></div>
+    <div><h3>AI and ML</h3><p>Python, PyTorch, TensorFlow, deep learning, CNNs, embedding learning, genetic algorithms, OpenCV, LangChain, OpenAI API</p></div>
+    <div><h3>Web</h3><p>JavaScript, React, Next.js, Node.js, Tailwind CSS, MERN stack, Supabase, HTML5, CSS3</p></div>
+    <div><h3>Data</h3><p>SQL, MySQL, Tableau, Excel</p></div>
     <div><h3>Languages and tools</h3><p>Python, Java, C++, Git, GitHub, VS Code</p></div>
   </div>
 </section>
